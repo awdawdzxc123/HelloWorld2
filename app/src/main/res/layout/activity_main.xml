@@ -27,7 +27,7 @@
         android:ems="10"
         android:hint="@string/phone"
         android:importantForAutofill="no"
-        android:inputType="textPersonName"
+        android:inputType="phone"
         android:padding="10dp"
         app:layout_constraintBottom_toTopOf="@+id/edit_pwd"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
