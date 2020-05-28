@@ -94,7 +94,8 @@
                     android:drawableStart="@drawable/password"
                     android:ems="10"
                     android:hint="@string/denglu"
-                    android:inputType="textPersonName" />
+                    android:inputType="textPersonName"
+                    android:maxLength="6" />
 
             </LinearLayout>
 
@@ -107,7 +108,8 @@
                 android:drawableStart="@drawable/ok_password"
                 android:ems="10"
                 android:hint="@string/qieren"
-                android:inputType="textPassword" />
+                android:inputType="textPassword"
+                android:maxLength="6" />
 
             <EditText
                 android:id="@+id/edit_phone"
@@ -118,7 +120,8 @@
                 android:drawableStart="@drawable/phone"
                 android:ems="10"
                 android:hint="@string/sj"
-                android:inputType="phone" />
+                android:inputType="phone"
+                android:maxLength="11" />
 
             <Switch
                 android:id="@+id/switch_sms"
