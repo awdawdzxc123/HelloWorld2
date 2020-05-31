@@ -62,6 +62,7 @@ public class DemoActivity extends AppCompatActivity  {
                         editor.putString("sms_" + phone, temp);
                         editor.apply();
                         toast = "注册成功";
+                        finish();
                         //跳转至登录界面
                     }
                 }
