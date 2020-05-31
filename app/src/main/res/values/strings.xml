@@ -15,5 +15,9 @@
     <string name="jieshou">接收信息推送</string>
     <string name="dui">同意本软件的用户服务协议和隐私政策</string>
     <string name="zhuc">注册</string>
+    <string name="welcome">你好,欢迎使用~</string>
+    <string name="nc">昵称</string>
+    <string name="sex">性别</string>
+    <string name="sjhm">手机号码</string>
 
 </resources>
