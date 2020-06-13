@@ -21,7 +21,7 @@ public class DemoActivity extends AppCompatActivity  {
         super.onCreate(savedInstanceState);
         mBinding=ActivityDemoBinding.inflate(getLayoutInflater());
         setContentView(mBinding.getRoot());
-        mBinding.buttonRegister.setOnClickListener(new View.OnClickListener() {
+        mBinding.buttonReset.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 name=mBinding.editName.getText().toString().trim();
@@ -74,7 +74,9 @@ public class DemoActivity extends AppCompatActivity  {
             public void onCheckedChanged(RadioGroup group, int checkedId) {
                 if (checkedId==R.id.radio_man){
                     sex = mBinding.radioMan.getText().toString();
-            }else sex = mBinding.radioWomen.getText().toString();
+            }else {
+                    sex = mBinding.radioWomen.getText().toString();
+                }
 
             }
 
