@@ -47,12 +47,19 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-        mBinding.buttonRegister.setOnClickListener(new View.OnClickListener() {
+        mBinding.buttonReset.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(MainActivity.this,DemoActivity.class);
                 startActivity(intent);
 
+            }
+        });
+        mBinding.buttonForget.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this,DemoActivity.class);
+                startActivity(intent);
             }
         });
     }

@@ -21,7 +21,7 @@
     <string name="sjhm">手机号码</string>
     <string name="pwd">新密码</string>
     <string name="reset_pwd">重置密码</string>
-    <string name="reset_pwd">重置密码</string>
     <string name="button_reset">更改密码</string>
+    <string name="button_forget">忘记密码</string>
 
 </resources>
