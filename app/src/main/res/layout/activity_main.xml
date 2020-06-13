@@ -16,7 +16,7 @@
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/button_register" />
+        app:layout_constraintTop_toBottomOf="@+id/button_reset" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -71,14 +71,14 @@
         android:text="@string/login"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/button_register"
+        app:layout_constraintBottom_toTopOf="@+id/button_reset"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edit_pwd" />
 
     <Button
-        android:id="@+id/button_register"
+        android:id="@+id/button_reset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#03A9F4"

@@ -139,7 +139,7 @@
                 android:text="@string/dui" />
 
             <Button
-                android:id="@+id/button_register"
+                android:id="@+id/button_reset"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
